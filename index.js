@@ -1,5 +1,7 @@
-module.exports = function muddleware(...handlers) {
+module.exports = function muddleware(...originalHandlers) {
     return function middleware(req, res, next) {
+        // Clone on each request
+        const handlers = [...originalHandlers];
 
         // If running outside of express middleware then you may not have 'next' so ensure we have a final call and handle any error
         function final(err) {
