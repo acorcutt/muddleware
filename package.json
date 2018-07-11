@@ -1,0 +1,24 @@
+{
+  "name": "muddleware",
+  "version": "1.0.0",
+  "description": "Simple function to chain express.js like middleware functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/acorcutt/muddleware.git"
+  },
+  "keywords": [
+    "middleware",
+    "chain",
+    "express"
+  ],
+  "author": "Anthony Corcutt",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/acorcutt/muddleware/issues"
+  },
+  "homepage": "https://github.com/acorcutt/muddleware#readme"
+}
